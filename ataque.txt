@@ -1,0 +1,11 @@
+    private void atackDragonMouseClicked(java.awt.event.MouseEvent evt) {                                         
+        int int_vidaUnicornio = Integer.parseInt(vidaUnicornio.getText());
+        int_vidaUnicornio-=5 + (Math.random()*1000)%5;
+        vidaUnicornio.setText(""+int_vidaUnicornio); 
+    }                                        
+
+    private void atackUnicornioMouseClicked(java.awt.event.MouseEvent evt) {                                            
+        int int_vidaDragon = Integer.parseInt(vidaDragon.getText());
+        int_vidaDragon -= 5 + (Math.random()*1000)%5;
+        vidaDragon.setText(""+int_vidaDragon);
+    }                                       
